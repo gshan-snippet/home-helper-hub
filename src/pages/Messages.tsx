@@ -174,7 +174,7 @@ const Messages = () => {
         </div>
 
         {/* Chat view */}
-        {selectedUserId ? (
+        {selectedUserId && (
           <div className="flex flex-col flex-1 p-4 md:p-8 w-full md:max-w-2xl">
             {/* Back button for mobile */}
             <button
